@@ -1,0 +1,90 @@
+baseURL: https://tursunov.me/
+languageCode: en-us
+title: Azizbek's Blog
+paginate: 10
+theme: PaperMod
+
+menu:
+  main:
+    # - identifier: home
+    #   name: Home
+    #   url: /
+    #   weight: 10
+    - identifier: blog
+      name: Blog
+      url: /blog
+      weight: 20
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 30  
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 50
+    # - identifier: notes
+    #   name: Notes
+    #   url: https://notes.tursunov.me
+    #   weight: 70
+
+
+params:
+  # SEO
+  Description: "I'm Azizbek Tursunov, a Software Engineer from Uzbekistan"
+  author: "Azizbek Tursunov"
+  keywords: [Software Engineer, portfolio, blog]
+  env: production
+
+  # Theme
+  defaultTheme: auto
+  showToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: false
+  ShowPageNums: true
+
+  # Profile 
+  profileMode:
+      enabled: true
+      title: "Azizbek Tursunov"
+      subtitle: "Software Engineer"
+      imageUrl: "home/me.jpg"
+      # imageTitle: "<title of image as alt>"
+      imageWidth: 150
+      imageHeight: 150
+      buttons:
+        - name: About me
+          url: "/about"
+        - name: Resume
+          url: "https://docs.google.com/document/d/1QgVYYzNdTFxC1GOPXqLWtB1AuwiB8Xs-2I06mR6q9ko/edit?usp=sharing"
+
+  socialIcons:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/azizbektursunov"
+    - name: "github"
+      url: "https://github.com/azizbek-tursunov"
+
+  # text search
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+# for search using Fuse.js
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+# allow HTML in MD
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
