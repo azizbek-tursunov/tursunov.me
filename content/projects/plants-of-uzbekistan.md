@@ -5,7 +5,7 @@ draft: false
 description: Namangan State University - Faculty of Biotechnology Web Platform.
 hideSummary: true
 cover:
-    image: "projects/plant/welcome.png"
+    image: "/projects/plant/welcome.png"
 ---
 
 

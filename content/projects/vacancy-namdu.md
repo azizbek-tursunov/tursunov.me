@@ -4,7 +4,7 @@ date: 2024-01-05T11:34:22+05:00
 draft: false
 hideSummary: true
 cover: 
-    image: "projects/vacancy/welcome.png"
+    image: "/projects/vacancy/welcome.png"
 ---
 
 
