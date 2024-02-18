@@ -32,6 +32,7 @@ params:
   # SEO
   Description: "I'm Azizbek Tursunov, a Software Engineer from Uzbekistan"
   author: "Azizbek Tursunov"
+  hideAuthor: true
   keywords: [Software Engineer, portfolio, blog]
   env: production
 
