@@ -6,10 +6,10 @@ theme: PaperMod
 
 menu:
   main:
-    - identifier: home
-      name: Home
-      url: /
-      weight: 10
+    # - identifier: home
+    #   name: Home
+    #   url: /
+    #   weight: 10
     - identifier: blog
       name: Blog
       url: /blog
@@ -59,13 +59,15 @@ params:
         - name: About me
           url: "/about"
         - name: Resume
-          url: "https://docs.google.com/document/d/1QgVYYzNdTFxC1GOPXqLWtB1AuwiB8Xs-2I06mR6q9ko/edit?usp=sharing"
+          url: "/resume"
 
   socialIcons:
     - name: "linkedin"
       url: "https://www.linkedin.com/in/azizbektursunov"
     - name: "github"
       url: "https://github.com/azizbek-tursunov"
+    - name: "email"
+      url: "mailto:azizbek@namdu.uz"
 
   # text search
   fuseOpts:
